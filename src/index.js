@@ -1,10 +1,10 @@
 const tasks = [
   {
-    text: "Помыть пол",
+    text: "Разобрать телек",
     done: true,
   },
   {
-    text: "Приготовить пирог",
+    text: "Съездить в Тюмень",
     done: false,
   }            
 ]
@@ -40,7 +40,7 @@ const render = () => {
  };
   
 render()
-addTask(tasks, {text: "Сходить в магазин", done: false});
+addTask(tasks, {text: "Заказать кровать", done: false});
 render()
 
 const colors = ['lightblue', 'LightSalmon', 'Gold', 'PaleGreen', 'plum', 'Aquamarine', 'Bisque', 'DarkSeaGreen']
